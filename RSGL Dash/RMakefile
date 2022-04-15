@@ -1,0 +1,9 @@
+GXX = g++
+ARGS += -g
+LIBS += -lRSGL -pthread
+OUTPUT = RSGLDash
+SOURCE += source/*.cpp
+
+pash{
+	./RSGLDash
+}

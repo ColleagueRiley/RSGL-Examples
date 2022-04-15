@@ -1,0 +1,9 @@
+GXX = g++
+ARGS += -g
+LIBS += -lRSGL -pthread
+OUTPUT = RSGLGun
+SOURCE += source/*.cpp
+
+pash{
+	./RSGLGun
+}

@@ -1,0 +1,9 @@
+GXX = g++
+SOURCE += source/*.cpp
+LIBS += -lRSGL
+ARGS += -g
+OUTPUT = intro
+
+pash{
+	./intro
+}

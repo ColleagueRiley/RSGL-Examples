@@ -1,5 +1,5 @@
 # RSGL Examples
-Brief example test projects that show how you could impliment some concepts into RSGL
+Brief example test projects that show how you could impliment some concepts with RSGL
 
 RSGLMake and RSGL are both required to compile the examples
 

@@ -1,0 +1,22 @@
+GXX = g++
+LIBS += -lRSGL -pthread
+ARGS += -g
+OUTPUT = plat
+SOURCE += source/*cpp
+
+pash{
+	./plat
+}
+
+local{
+	pash{
+		cp $(OUTPUT) ~/.local/bin/
+		plat
+	}
+}
+	
+install{
+	pash{
+		sudo cp $(OUTPUT) /usr/bin/
+	}
+}
